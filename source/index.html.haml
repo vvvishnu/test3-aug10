@@ -1,0 +1,130 @@
+!!!
+%html
+  %body
+    %main
+      .row
+        .col.s1.m0.l0
+          .container
+            %a.button-collapse.top-nav.waves-effect.waves-light.circle.hide-on-large-only{"data-activates" => "nav-mobile", :href => "#"}
+              %i.material-icons menu
+          %ul#nav-mobile.side-nav.fixed
+            %li.logo
+              %a#logo-container.brand-logo{:href => "http://materializecss.com/"}
+                %img{:height => "100px;", :src => "img1.png", :width => "100px;"}/
+            %li.search
+              .search-wrapper.card
+                %input#search/
+                %i.material-icons search
+                .search-results
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal About
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal Getting Started
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal CSS
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal Components
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal JavaScript
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal Mobile
+            %li.bold
+              %a.collapsible-header.waves-effect.waves-teal Showcase
+        #row1.col.s11.m12.l12
+          .row
+            %h1 Materialize
+            .row.center
+              %h4.header.col.l12.center A modern responsive front-end framework based on Material Design
+            .row.center
+              %a#pinkbutton.btn-large.waves-effect.waves-light Download
+            .row.center
+              %p beta version 2.1
+            .row.center
+              %img{:height => "130px;", :src => "img2.jpg", :width => "130px;"}/
+              %br/
+              visit this place
+              = succeed "amoung" do
+                %br/
+          .github-commit
+            .container
+              .commit
+                Latest Commit on Github:
+                %a.sha{:href => ""} sssss22133sssssdd23dddddd24dds53sss6ss2sssss
+                7 hours ago
+                %a.btn.right Github
+        .row.center
+          .col.s12
+            %img{:height => "350px;", :src => "img3.png", :width => "650px;"}/
+            %br/
+            .row.center
+              %h4.header.col.l12.center A modern responsive front-end framework based on Material Design
+        .row.center
+          .col.s10.offset-s1
+            .col.s4
+              .card
+                .card-content.black-text
+                  %i.large.material-icons flash_on
+                  %br/
+                  %h2
+                    %b
+                      %span.card-title Speeds up development
+                  %p
+                    I am a very simple card. I am good at containing small bits of information. I am convenient because I require
+                    little markup to use effectively.
+            .col.s4
+              .card
+                .card-content.black-text
+                  %i.large.material-icons group
+                  %br/
+                  %h2
+                    %b
+                      %span.card-title Speeds up development
+                  %p
+                    I am a very simple card. I am good at containing small bits of information. I am convenient because I require
+                    little markup to use effectively.
+            .col.s4
+              .card
+                .card-content.black-text
+                  %i.large.material-icons settings
+                  %br/
+                  %h2
+                    %b
+                      %span.card-title Speeds up development
+                  %p
+                    I am a very simple card. I am good at containing small bits of information. I am convenient because I require
+                    little markup to use effectively.
+        %hr/
+        .row.center
+          .col.l6.offset-l3
+            .row.center
+              %h4.header.col.l12.center Material Showcase
+            .row.center.grey-text.text-darken-10
+              I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup
+              to use effectively.
+            .row.center
+              %a.btn Explore Our Showcase
+        #row1.col.s11.m12.l12
+          .row.text-left
+            #foot1.col.s4.white-text
+              %h4.header> Help Materialize Grow
+              I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup
+              to use effectively.
+              %br/
+              %a#pinkbutton.btn.waves-effect.waves-light Donate now
+            #foot1.col.s4.white-text
+              %h4.header> Join the discussion
+              I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup
+              to use effectively.
+              %br/
+              %a#pinkbutton.btn.waves-effect.waves-light Chat
+            #foot1.col.s2.white-text
+              %h4.header Connect
+              %iframe{:allowtransparency => "true", :frameborder => "0", :height => "30", :scrolling => "0", :src => "http://ghbtns.com/github-btn.html?user=dogfalo&repo=materialize&type=watch&count=true&size=large", :width => "170"}
+              %br/
+              %a#bluebutton.btn{"data-dnt" => "true", "data-show-count" => "true", "data-size" => "large", :href => "https://twitter.com/MaterializeCSS"} Follow@MaterializeCSS
+              %br/
+        %footer
+          .footer
+            .container
+              © 2014-2016 Materialize, All rights reserved.
+              %h6.header.right MIT License
